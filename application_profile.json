@@ -1,0 +1,40 @@
+{
+  "contact": {
+    "first_name": "Alexander",
+    "last_name": "Zirilli",
+    "full_name": "Alexander Zirili",
+    "email": "aazmax123@gmail.com",
+    "phone": "516-776-2718",
+    "address": "1450 Britton Street",
+    "city": "Wantagh",
+    "state": "NY",
+    "zip": "11793",
+    "country": "United States"
+  },
+  "links": {
+    "linkedin": "www.linkedin.com/in/alexander-zirilli-1bba7b231",
+    "github": "https://github.com/AlexWrld28",
+    "portfolio": "https://alexzirilli.netlify.app"
+  },
+  "education": {
+    "school": "Farmingdale State College",
+    "degree": "Bachelor's",
+    "major": "Computer Science",
+    "graduation_month": "May",
+    "graduation_year": "2027",
+    "gpa": "3.09"
+  },
+  "work_authorization": {
+    "authorized_to_work_us": true,
+    "require_sponsorship": false
+  },
+  "documents": {
+    "resume": "/Users/zawg/Downloads/Scripting Specialist Resume"
+  },
+  "eeo": {
+    "gender": "Prefer not to say",
+    "race": "Prefer not to say",
+    "veteran_status": "Prefer not to say",
+    "disability_status": "Prefer not to say"
+  }
+}

@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+list_updater/__init__.py
+list_updater/analytics.py
+list_updater/category.py
+list_updater/commands.py
+list_updater/constants.py
+list_updater/formatter.py
+list_updater/github.py
+list_updater/listings.py
+list_updater/readme_generator.py
+list_updater.egg-info/PKG-INFO
+list_updater.egg-info/SOURCES.txt
+list_updater.egg-info/dependency_links.txt
+list_updater.egg-info/requires.txt
+list_updater.egg-info/top_level.txt
