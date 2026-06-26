@@ -1,5 +1,23 @@
 [
     {
+        "company": "FOX",
+        "title": "Internship program - sports",
+        "url": "https://www.foxcareers.com/?source=linkedin?source=linkedin",
+        "location": "New York, NY",
+        "status": "submitted",
+        "submitted_at": "2026-06-26T14:52:55",
+        "notes": "Applied through company site"
+    },
+    {
+        "company": "ellipsis",
+        "title": "Software Engineer 2027 intern",
+        "url": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849/application?utm_source=XElaYb14r0",
+        "location": "",
+        "status": "submitted",
+        "submitted_at": "2026-06-26T14:26:43",
+        "notes": "Applied through company site"
+    },
+    {
         "company": "MTA",
         "title": "Transportation Operations Analysis & Development, Emerging Talent Intern (Fall)",
         "url": "https://careers.mta.org/jobs/17662763-transportation-operations-analysis-and-development-emerging-talent-intern-fall?tm_job=15488&tm_event=view&tm_company=47560&bid=56&__jvst=Job+Board&__jvsd=LinkedIn",
