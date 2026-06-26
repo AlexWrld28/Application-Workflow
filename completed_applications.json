@@ -1,5 +1,14 @@
 [
     {
+        "company": "Rokt",
+        "title": "Junior Software Engineer",
+        "url": "linkedIn.com",
+        "location": "New York, NY",
+        "status": "submitted",
+        "submitted_at": "2026-06-26T16:24:04",
+        "notes": "Applied through linkedIn Quick Apply"
+    },
+    {
         "company": "IBM",
         "title": "Software Engineer Apprentice",
         "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=116934&src=SN_LinkedIn",
