@@ -1,5 +1,41 @@
 [
     {
+        "company": "French & Parello",
+        "title": "GIS Analyst",
+        "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6bab2611-6eca-4dda-bd57-f4dea7b477ff&ccId=19000101_000001&lang=en_US&selectedMenuKey=CareerCenter&jobId=622521&source=LI",
+        "location": "Wall Township, NJ",
+        "status": "submitted",
+        "submitted_at": "2026-06-28T20:21:39",
+        "notes": "Applied through company site"
+    },
+    {
+        "company": "NBC",
+        "title": "Staff GIS Developer",
+        "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000133994798-staff-gis-developer",
+        "location": "New York, NY",
+        "status": "submitted",
+        "submitted_at": "2026-06-28T20:01:00",
+        "notes": "Applied through company site"
+    },
+    {
+        "company": "Cloud and things",
+        "title": "Full stack/GIS Developer",
+        "url": "https://cloudandthings.com/wp-content/plugins/bullhorn-oscp/#/jobs/9267",
+        "location": "Brooklyn, NY",
+        "status": "submitted",
+        "submitted_at": "2026-06-28T19:46:24",
+        "notes": "Applied through company site"
+    },
+    {
+        "company": "GPTZero",
+        "title": "Software Engineering intern",
+        "url": "https://jobs.ashbyhq.com/GPTZero/e1f12af2-d017-4fca-a9af-99431d989d53/application?utm_source=XoW9k5bL7O&src=LinkedIn",
+        "location": "New York, NY",
+        "status": "submitted",
+        "submitted_at": "2026-06-28T19:32:26",
+        "notes": "Applied through company site, major reach"
+    },
+    {
         "company": "BlackRock",
         "title": "Associate",
         "url": "https://careers.blackrock.com/job/-/-/45831/96662526480?source=LinkedIn",
