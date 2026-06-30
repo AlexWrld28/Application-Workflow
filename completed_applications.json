@@ -1,5 +1,25 @@
 [
     {
+        "application_number": 34,
+        "company": "Alexander Chapman",
+        "title": "Software Engineer",
+        "url": "N/A",
+        "location": "New York City\"",
+        "status": "submitted",
+        "submitted_at": "2026-06-30T19:37:00",
+        "notes": "Easy Apply"
+    },
+    {
+        "application_number": 33,
+        "company": "Open Systems Technologies",
+        "title": "Python Developer",
+        "url": "https://www2.jobdiva.com/portal/?a=igjdnwlupnizy5oj4o4anqqe6564dk0883vo6g0xnslizbexg8ikt3j0ryfl9q0w&jobid=17238935#/jobs/17238935?compid=0&from=COMP&id=17238935&SearchString=&StatesString=&source=www.linkedin.com",
+        "location": "New York, NY",
+        "status": "submitted",
+        "submitted_at": "2026-06-30T19:21:43",
+        "notes": "applied through company site"
+    },
+    {
         "application_number": 32,
         "company": "Santec",
         "title": "Urban Planning intern",
