@@ -13,10 +13,11 @@ This repository tracks two pieces of application data:
 
 ## Adding an entry to `completed_applications.json`
 
-`completed_applications.json` is a JSON array of application objects. New entries should be added in newest-first order so the most recent submission stays near the top.
+`completed_applications.json` is a JSON array of application objects. New entries should be added in newest-first order so the most recent submission stays near the top. The first record's `application_number` is the current total number of applications submitted.
 
 Use the same fields as the existing records:
 
+- `application_number`
 - `company`
 - `title`
 - `url`
@@ -29,6 +30,7 @@ Example:
 
 ```json
 {
+  "application_number": 1,
   "company": "Example Co",
   "title": "Software Engineering Intern",
   "url": "https://example.com/jobs/123",
@@ -43,6 +45,7 @@ Rules to keep in mind:
 
 - Keep the file valid JSON.
 - Add a comma between objects, but not after the final object.
+- Increment `application_number` by 1 for each new application.
 - Use ISO 8601 timestamps for `submitted_at`.
 - Use empty strings for fields you do not know yet instead of inventing values.
 
@@ -55,6 +58,7 @@ python main.py applications add
 ```
 
 The command will prompt for each field on its own line. Press Enter to accept the default for optional fields.
+The `application_number` is added automatically.
 
 If you want to paste values line by line without prompts, use stdin mode:
 

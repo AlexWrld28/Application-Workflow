@@ -35,6 +35,29 @@ FIELD_SPECS: tuple[FieldSpec, ...] = (
 )
 
 
+def _coerce_application_number(value: Any) -> int | None:
+    try:
+        number = int(value)
+    except (TypeError, ValueError):
+        return None
+    if number < 1:
+        return None
+    return number
+
+
+def _next_application_number(applications: list[dict[str, Any]]) -> int:
+    existing_numbers = [
+        number
+        for application in applications
+        if isinstance(application, dict)
+        for number in [_coerce_application_number(application.get("application_number"))]
+        if number is not None
+    ]
+    if existing_numbers:
+        return max(existing_numbers) + 1
+    return len(applications) + 1
+
+
 def _load_json_array(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
         return []
@@ -124,15 +147,18 @@ def add_application(args: argparse.Namespace) -> int:
     applications = _load_json_array(completed_path)
     stdin_values = _read_stdin_values() if args.stdin or not sys.stdin.isatty() else None
 
-    record = {
-        spec.key: _resolve_field(spec, getattr(args, spec.key), stdin_values)
-        for spec in FIELD_SPECS
-    }
+    record = {"application_number": _next_application_number(applications)}
+    record.update(
+        {
+            spec.key: _resolve_field(spec, getattr(args, spec.key), stdin_values)
+            for spec in FIELD_SPECS
+        }
+    )
 
     applications.insert(0, record)
     _save_json_array(completed_path, applications)
 
-    print(f"Added application: {record['company']} - {record['title']}")
+    print(f"Added application #{record['application_number']}: {record['company']} - {record['title']}")
     print(f"Saved to: {completed_path}")
     return 0
 
